@@ -4,6 +4,9 @@ import cors from 'cors'
 const PORT = process.env.PORT || 3000
 
 const app = express();
+
+app.use('*', cors()) // todo: Add more restrictions
+
 app.use('/', (req, res) => {
   res.send(`Server says ${(new Date).toString()}`)
 })

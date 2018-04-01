@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node",
     "webpack": "webpack --mode development",
+    "build": "webpack --mode production",
     "start": "node dist/main.js"
   },
   "dependencies": {
