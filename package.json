@@ -10,16 +10,16 @@
     "start": "node dist/main.js"
   },
   "dependencies": {
-    "babel-cli": "^6.26.0",
     "cors": "^2.8.4",
     "express": "^4.16.3"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "nodemon": "^1.17.3",
     "webpack": "^4.4.1",
     "webpack-cli": "^2.0.13",
-    "webpack-node-externals": "1.6.0"
+    "webpack-node-externals": "^1.7.2"
   }
 }
