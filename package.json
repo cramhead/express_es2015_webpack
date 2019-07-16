@@ -19,7 +19,7 @@
     "babel-preset-env": "^1.6.1",
     "nodemon": "^1.17.3",
     "webpack": "^4.4.1",
-    "webpack-cli": "^2.0.13",
+    "webpack-cli": "^3.3.6",
     "webpack-node-externals": "^1.7.2"
   }
 }
